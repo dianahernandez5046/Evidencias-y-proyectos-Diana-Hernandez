@@ -1,0 +1,16 @@
+precio = input(int("input"))
+precio = 100
+descuento = 0.10
+iva = 0.16
+total = (precio -(precio * descuento)+precio * iva)
+print (total)
+
+precio = 19.5
+print ("precio: $" + str(precio))
+print (f"precio: ${precio}")
+
+precio = 19.5
+print(f"precio: ${precio}")
+
+total2 = 149.6789
+print(f"total2: ${total2:.2f}")
