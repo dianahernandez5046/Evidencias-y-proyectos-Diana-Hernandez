@@ -1,0 +1,13 @@
+print ("Hola, ¿Como te llamas?")
+myname = input ()
+print ("Hola, " + myname)
+# import time para evitar que se genere de golpe cada print
+import time
+time.sleep (2)
+print ("da clic a los clones para eliminarlos")
+time.sleep (2)
+print ("presiona Q para reiniciar la puntuacion")
+time.sleep (2)
+print ("presiona espacio para una sorpresa")
+time.sleep (2)
+print ("COMENCEMOS")
